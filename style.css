@@ -84,7 +84,7 @@ body {
 
 .drop1 {
 	overflow: hidden;
-	z-index: 2;
+	z-index: 1;
 	display: inline-block;
 	position: absolute;
 	animation-direction: normal;
@@ -97,7 +97,7 @@ body {
 	left: 5vw;
 }
 .drop2 {
-	z-index: 2;
+	z-index: 1;
 	overflow: hidden;
 	display: inline-block;
 	position: absolute;
@@ -112,7 +112,7 @@ body {
 }
 
 .drop3 {
-	z-index: 2;
+	z-index: 1;
 	overflow: hidden;
 	display: inline-block;
 	position: absolute;
@@ -126,7 +126,7 @@ body {
 	left: 40vw;
 }
 .drop4 {
-	z-index: 2;
+	z-index: 1;
 	overflow: hidden;
 	display: inline-block;
 	position: absolute;
@@ -140,7 +140,7 @@ body {
 	left: 60vw;
 }
 .drop5 {
-	z-index: 2;
+	z-index: 1;
 	overflow: hidden;
 	display: inline-block;
 	position: absolute;
@@ -201,7 +201,7 @@ body {
 }
 
 .button{
-	z-index: 2;
+	z-index: 1;
 	/*background-color: #47A6C9;*/
 	/*background-color: rgba(0, 0, 0, 0.5);*/
 	display: block;
@@ -217,7 +217,7 @@ body {
 	/*border: 3px solid blue;*/
 }
 .button img{
-	z-index: 2;
+	z-index: 1;
 	/*background-color: #47A6C9;*/
 	/*background-color: rgba(0, 0, 0, 0.5);*/
 	position: relative;
@@ -231,7 +231,7 @@ body {
 	
 }
 .button a{
-	z-index: 2;
+	z-index: 1;
 	/*background-color: #47A6C9;*/
 	/*background-color: rgba(0, 0, 0, 0.5);*/
 	margin:10px;
@@ -285,7 +285,7 @@ body {
 	position: sticky;
 	border: 1px solid #88E1F0;
 	z-index:2;
-	background: url("img/tools.png");
+	background: url("img/1_1.jpg");
 	background-repeat: no-repeat;
 	 background-size: 100vw 100vh;
 	width: 100vw;
@@ -327,8 +327,19 @@ body {
 	
 	
 }
-.slide1{
+.card2-content{
+	display: inline-block;
+	position: relative;
 	z-index:2;
+	
+	white-space: nowrap;
+	overflow: hidden;
+	
+	
+	
+}
+.slide1{
+	z-index:1;
 	display: inline-block;
 	position: sticky;
 	animation: slide1 30s linear infinite;
@@ -337,16 +348,19 @@ body {
 
 
 .slide1 img{
+	/*background: yellow;*/
 	margin:50% 5px;
 	display: inline-block;
 	border-radius: 10px;
 	width: 60vw;
 	height: auto;
-	z-index: 2;
+	z-index: 3;
 	
-	border: 1px solid #88E1F0;
+	
 	object-fit: cover;
-	/*object-fit: contain;*/
+	/*object-fit: contain;
+	border: 1px solid #88E1F0;
+	*/
 }
 
 
@@ -372,12 +386,12 @@ body {
 	font-size: 4vh;
 	position: absolute;
 	text-align: center;
-	color: black;
-	text-shadow:  1px 1px 25px #EBEDA9;
+	color: #363216;
+	text-shadow:  1px 1px 3px #EBEDA9;
 }
 .card2-content p {
 	
-	z-index:3;
+	z-index:1;
 	font-family: 'Rubik Black';
 	/*font-family: 'Panton Rust';*/
 	
@@ -389,13 +403,13 @@ body {
 	font-size: 5vh;
 	position: absolute;
 	text-align: center;
-	color: black;
-	text-shadow:  2px 3px 23px #EBEDA9;
+	color: #363216;
+	text-shadow:  2px 3px 3px #EBEDA9;
 	
 }
 .card2-content ul {
 	
-	z-index:2;
+	z-index:1;
 	font-family: 'Rubik Black';
 	font-weight: bold;
 	line-height: 1.5;
@@ -406,14 +420,14 @@ body {
 	font-size: 3.3vh;
 	position: absolute;
 	text-align: left;
-	color: #black;
-	text-shadow:  2px 3px 23px #EBEDA9;
+	color: #363216;
+	text-shadow:  2px 3px 3px #EBEDA9;
 	
 	
 }
 .card3-content p {
 	
-	z-index:3;
+	z-index:2;
 	font-family: 'Rubik Black';
 	/*font-family: 'Panton Rust';*/
 	
