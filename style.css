@@ -258,7 +258,7 @@ body {
 	z-index: 2;
 	display: flex;
 	position: static;
-	margin: 2% 0px 0px -2vw;
+	margin: 2% 0px 0px 2vw;
 	white-space: nowrap;
 	text-decoration: none;
 	/*border: 3px solid green;*/
