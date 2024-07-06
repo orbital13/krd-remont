@@ -855,16 +855,17 @@ padding: 50% auto;
 
 .card4 p {
 
-	position: static;
+	position: absolute;
 	z-index:1;
 	font-family: 'Rubik Black';
 	/*width: 100vw;
-	top: 1vw;
+	top: 1.6vw;
 	left: 0.1vw;
 	justify-content: center;
 	text-align: center;
 	*/
-	margin: 1vw auto;
+	
+	margin: auto;
 	width: 18vw;
 	height: 28vw;
 	white-space: wrap;
